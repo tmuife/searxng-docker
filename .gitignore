@@ -4,3 +4,6 @@ searxng-docker.service
 caddy
 srv
 searxng/uwsgi.ini
+cert.pem
+key.pem
+.env
