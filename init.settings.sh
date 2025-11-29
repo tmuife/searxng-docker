@@ -8,7 +8,7 @@ server:
   # base_url is defined in the SEARXNG_BASE_URL environment variable, see .env and docker-compose.yml
   secret_key: $(openssl rand -hex 32)
   limiter: false  # can be disabled for a private instance
-  image_proxy: $IMAGE_PROXY
+  image_proxy: false
 ui:
   static_use_hash: true
 redis:
