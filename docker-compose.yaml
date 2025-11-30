@@ -42,8 +42,8 @@ services:
     restart: unless-stopped
     networks:
       - searxng
-    ports:
-      - "8080:8080"
+    #ports:
+    #  - "8080:8080"
     volumes:
       - ./searxng:/etc/searxng:rw
       - searxng-data:/var/cache/searxng:rw
